@@ -17,7 +17,7 @@ Start         First           Second
 10 9 8 7      11 10  9  8     12 11 10  9
 ````
 
-Function Description
+**Function Description**
 
 Complete the matrixRotation function in the editor below. It should print the resultant 2D integer array and return nothing.
 
