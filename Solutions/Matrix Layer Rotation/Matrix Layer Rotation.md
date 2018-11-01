@@ -21,7 +21,7 @@ Start         First           Second
 
 Complete the matrixRotation function in the editor below. It should print the resultant 2D integer array and return nothing.
 
-matrixRotation has the following parameter(s):
+*matrixRotation* has the following parameter(s):
 
 * matrix: a 2D array of integers
 * r: an integer that represents the rotation factor
