@@ -27,3 +27,35 @@ Complete the matrixRotation function in the editor below. It should print the re
 * r: an integer that represents the rotation factor
 
 # Solution
+
+````javascript
+var mij = i + j;
+````
+````
+[ [ 0, 1, 2, 3 ],
+  [ 1, 0, 1, 4 ],
+  [ 2, 1, 2, 5 ],
+  [ 3, 2, 3, 6 ],
+  [ 4, 5, 6, 7 ] ]
+````
+````javascript
+  var mij = i + j - 2*frame_v;
+````
+````
+[ [ 0, 1, 2, 3 ],
+  [ 1, 2, 3, 4 ],
+  [ 2, 3, 4, 5 ],
+  [ 3, 4, 5, 6 ],
+  [ 4, 5, 6, 7 ] ]
+````
+````javascript
+var mij = i + j - 2*frame_v;
+if(!(j == frame_v || i == (m-1) - frame_v)) mij = frame_c - mij;
+````
+````
+[ [ 0, 13, 12, 11 ],
+ [ 1, 0, 5, 10 ],
+ [ 2, 1, 4, 9 ],
+ [ 3, 2, 3, 8 ],
+ [ 4, 5, 6, 7 ] ]
+````
